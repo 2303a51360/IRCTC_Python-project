@@ -39,8 +39,9 @@ Level Order View	BFS
 Booking Order	Queue
 Waiting List	Deque
 Cancellation	Stack
+
 📁 Project Structure
-IRCTC_Python_Akshitha/
+IRCTC_Python-project/
 │
 ├── main.py
 ├── controller.py
@@ -93,30 +94,17 @@ Admin traversal reports
 Purpose: Seat management using Binary Tree
 
 Each node represents:
-
 Seat Number
-
 Passenger Name
-
 Booking Status
-
 Functions
-
 Allocate seat (DFS)
-
 Free seat
-
 Count available seats
 
 Traversals:
 
-Preorder
-
-Inorder
-
-Postorder
-
-Level Order (BFS)
+Preorder , Inorder, Postorder, Level Order (BFS)
 
 Admin sees:
 
@@ -212,30 +200,10 @@ Seat No | Passenger
 
 ▶️ How to Execute the Project
 🔹 Step 1: Open Terminal
-cd IRCTC_Python_Akshitha
+cd IRCTC_Python-project
 
 🔹 Step 2: Run the Program
 python main.py
-
-🧪 Sample Test Cases
-✔ Booking Test
-
-Train: 12345
-
-Seats: 2
-
-Passengers: 3
-
-Expected:
-
-2 Confirmed
-
-1 Waiting
-
-✔ Waiting List Priority Test
-Normal: A, B
-Tatkal: C
-Waiting Order → C, A, B
 
 ✔ Cancellation Test
 
@@ -244,21 +212,3 @@ Cancel last booking
 Waiting passenger promoted
 
 Seat reassigned
-
-✅ Key Highlights
-
-✔ Uses multiple DS together
-✔ Real-world backend logic
-✔ Priority handling
-✔ Clean modular code
-✔ Exam-oriented design
-
-👩‍🎓 Suitable For
-
-BTech Mini Project
-
-Data Structures Lab
-
-Backend Logic Demonstration
-
-Viva / Evaluation
